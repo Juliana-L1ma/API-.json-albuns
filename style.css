@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+body{
+    background-color: black;
+    background: rgb(54,55,59);
+background: radial-gradient(circle, rgba(54,55,59,1) 0%, rgba(98,27,42,1) 100%);
+ background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+section{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgba(184, 184, 184, 0.247);
+    border-radius: 5%;
+    width: 300px;
+    height: 430px;
+    
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.album-img{
+    margin-top: 1%;
+    padding: 2%;
+   margin-left: 13%;
+}
+.informacoes-do-album{
+    background-color: rgb(155, 154, 154);
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+}
+.card-valor{
+    padding: 2%;
+    text-align: center;
+}
+.card-valor{
+    background-color: rgb(202, 102, 102);
+    border-radius: 10px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.cssbuttons-io-button {
+    background: #720b0b;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #720b0b;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    margin: 0 auto;
+    margin-top: 5%;
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #720b0b;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #720b0b;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+   
